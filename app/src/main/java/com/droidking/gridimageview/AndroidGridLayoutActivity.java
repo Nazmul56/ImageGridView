@@ -28,7 +28,7 @@ public class AndroidGridLayoutActivity extends AppCompatActivity {
         // Instance of ImageAdapter Class
         gridView.setAdapter(new ImageAdapter(this));
         /**
-         * On Click event for Single Gridview Item Listener
+         * On Click event for Single Gridview Item Listener for our image
          * */
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
